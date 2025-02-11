@@ -48,10 +48,12 @@ consentForm.addEventListener("submit", (e) => {
     </div>
   `;
   setTimeout(function () {
+    //After 5.5 sec show this message
     uploadText.innerHTML = `Selling it to a "reputable" company...`;
   }, 5500);
 
   setTimeout(function () {
+    //After 7 sec show this message
     modalText.innerHTML = "";
     modalInner.innerHTML = `
     <h2 class="sucker-heading">Thanks <span class="modal-display-name">${fullName}</span>, you sucker!</h2>
